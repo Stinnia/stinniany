@@ -1,0 +1,425 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/background.png);
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+	background-size: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.background {
+	min-height: 460px;
+}
+.content {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 150px;
+}
+
+ 
+h1 {
+	display: none;
+}
+h2 {
+	margin-top: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 150%;	
+}
+h3 {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 125%;
+}
+p {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: 'Palanquin', sans-serif;
+	font-size: 110%;
+	line-height: 1.2;
+}
+/* main navigation */
+.shk-logo {
+	display: inline-block;
+}
+li {
+	font-family: 'Agency FB';
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+	padding: 0;
+    overflow: hidden;
+	background-color: white;
+	color: #38556F;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+li a {
+    display: block;
+    color: #38556F;
+    text-align: center;
+    padding: 14px 16px;
+	margin: 0 20px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #FFB538;
+}
+.active {
+    background-color: #FFB538;
+}
+.myStyle {
+	display: block;
+}
+button {
+	display: none;
+}
+.button {
+	display: none;
+}
+/* end navigation*/
+
+/* typed.js from */
+.typewriter {
+	position: absolute;
+	margin: 50px;
+	top: 55%;
+	left: 21%;
+	border-right: 4px solid black;
+}
+#typed {
+	font-family: "Agency FB";
+	font-weight: bold;
+	font-size: 5vw;
+	text-align: center;
+	padding-right: 5px;
+}
+/* end typed.js*/
+
+.shk-picture {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	top: 20%;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+/* Læring */
+.coding {
+	background-color: white;
+	height: 100%;
+	width: 80%;
+	margin: auto;
+}
+.coding-img {
+	float: right;
+	margin: 0 20px;
+	width: 125px;
+}
+.flow-img {
+	float: right;
+	margin: 0 20px;
+	width: 300px;
+}
+
+/* end læring*/
+
+/* projekter */
+.projekt-button {
+	background-color: #FFB538; 
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+	font-weight: bold;
+	margin: 10px 20px;
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	border-radius: 40px;
+	position: relative;
+	left: 10%;
+}
+a {
+	text-decoration: none;
+    color: #38556F;
+}
+
+.projekt-button:hover {
+    background-color: #6B8397; 
+
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+.row {
+    margin: 0 50px 0 50px;
+}
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* end of my work*/
+/* contact */
+.kontakt {
+	text-align: center;
+}
+.contact_container {
+	width: 800px;
+	height: 402px;
+	background: #FFF;
+	margin: 0 auto;
+	border: 2px solid #FFF;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.contact_container .left {
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: url(../images/contact_background_01.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+}
+.contact_container .right {
+	float: right;
+	width: 50%;
+	height: 400px;
+	box-sizing: border-box;
+}
+.formBox {
+	width: 100%;
+	padding: 50px 40px;
+	box-sizing: border-box;
+	height: 400px;
+}
+.formBox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #38556F;
+}
+.formBox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.formBox input[type="text"],
+.formBox input[type="email"] {
+	border: none;
+	border-bottom: 2px solid #38556F;
+	outline: none;
+	height: 40px;
+}
+.formBox input[type="text"]:focus,
+.formBox input[type="email"]:focus {
+	border-bottom: 2px solid #FFB538;
+}
+.formBox input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #FFF;
+	background: #040624;
+	cursor: pointer;
+}
+.formBox input[type="submit"]:hover {
+	background: #FFB538;
+}
+.formBox textarea {
+	border: 2px solid #38556F;
+	outline: none;
+	height: 80px;
+	width: 97%;
+}
+.formBox textarea:focus {
+	border: 2px solid #FFB538;
+}
+/*end contact*/
+
+footer {
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+	font-family: "Agency FB";
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+	.content {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 150px;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+	.content {
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 30px;
+	}
+	.coding {
+		width: 100%;
+		height: 1000px;
+	}
+	h2 {
+		text-align: left;
+		margin-left: 20px;
+		margin-top: 0;
+		font-size: 100%;
+	}
+	h3 {
+		text-align: left;
+		margin-left: 20px;
+		margin-top: 0;
+		font-size: 100%;
+	}
+	p {
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: 100%;
+	}
+	footer {
+		display: none;
+	}
+	
+nav ul li {
+	text-align: right;
+	width: 100%;
+}
+
+	nav ul li:hover > ul {
+	position: static;
+	display: block;
+	width: 100%;
+}
+	nav ul li {
+	display: block;
+	width: 100%;
+	right: 0;
+}
+	ul {
+		top: 110px;
+	}
+	button {
+		display: block;
+		float: right;
+		position: absolute;
+		top: 5%;
+		right: 10%;
+		border: none;
+		background-color: white;
+		text-decoration: none;
+	}
+	.button {
+		display: block;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.projekt-button {
+	background-color: #FFB538; 
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+	font-weight: bold;
+	margin: 5px 10px;
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	border-radius: 40px;
+	position: relative;
+	left: 00%;
+}
+	.flow-img {
+		width: 200px;
+	}
+	nav {
+		display: none;
+	}
+	.shk-logo {
+		display: none;
+	}
+	
+	.contact_container{
+	width: 400px;
+}
+	.contact_container .right {
+	width: 400px;
+	background: url(../images/contact_background_01.jpg);
+	background-size: cover;
+}
+	.contact_container .left {
+	display: none;
+}
+	.typewriter {
+	position: absolute;
+	margin: 0px;
+	top: 50%;
+	}
+	
+.shk-picture {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+	.coding-img {
+		width: 50px;
+	}
+}

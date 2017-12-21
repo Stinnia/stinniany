@@ -1,0 +1,59 @@
+<!doctype html>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1;">
+<meta charset="utf-8">
+<title>Accomplishments</title>
+	<meta name="description" content="A jquery light weight image slideshow plugin. Full width and fully responsive simple image slider with fade in and fade out effect.">
+<meta name="keywords" content="jquery slideshow, full width slideshow, simple slideshow, simple image slider, responsive slider, full width responsive slider">
+<meta name="robots" content="index, follow">
+<meta name="copyright" content="Samir Das">
+<meta name="language" content="EN">
+<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="scripts/skdslider.min.js"></script>
+<script src="src/skdslider.js"></script>
+<link href="src/skdslider.css" rel="stylesheet" type="text/css">
+	<link href="styles/styles.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({delay:1500, animationSpeed: 1000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+			jQuery('#demo2').skdslider({delay:1500, animationSpeed: 500,showNextPrev:true,showPlayButton:false,autoSlide:true,animationType:'sliding'});
+			jQuery('#demo3').skdslider({delay:1500, animationSpeed: 1000,showNextPrev:true,showPlayButton:true,autoSlide:true,animationType:'fading'});
+			
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			  $(window).trigger('resize');
+			});
+			
+		});
+</script>
+</head>
+
+<body>
+	 <nav id="stickynav">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a class="active" href="#">ACCOMPLISHMENTS</a></li>
+      <li class="shk-logo"><a href="index.html"><img src="images/shk-logo.png" alt="stinnia"></a></li>
+      <li><a href="work.html">WORK</a></li>
+      <li><a href="contract.html">CONTACT</a></li>
+    </ul>
+  </nav>
+	 <div class="content">
+	
+	  <h2>About me</h2>
+      <p> I am a Greenlandic girl, in a Danish world<br>
+		  I aspire to be an amazing web developer, and I am still learning. <br>
+		   <br>
+		  
+      </p>
+		 
+
+	</div>
+	<footer>
+      <h2> &copy Stinnia Hansen Kleist, 2017</h2>
+    </footer>
+</body>
+</html>

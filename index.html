@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1;">
+<title>Stinnia</title>
+<!-- loading jQuery from server -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<!-- loading sdk slider gallery styles -->
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script src="lib/typed.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+</head>
+
+<body>
+<div class="background">
+	<button onClick="myFunction()"><img src="images/menu.png" alt="menu"></button>
+	<a href="index.html"><img class="button" src="images/shk-logo.png" alt="stinnia"></a>
+  <nav id="stickynav">
+    <ul>
+      <li><a class="active" href="#">HJEM</a></li>
+      <li><a href="læring.html">LÆRING</a></li>
+      <li class="shk-logo"><a href="#"><img src="images/shk-logo.png" alt="stinnia"></a></li>
+      <li><a href="projekter.html">PROJEKTER</a></li>
+      <li><a href="kontakt.html">KONTAKT</a></li>
+	<li><a href="pdf-filer/CV.pdf">CV</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    
+      <header>
+        <h1>Stinnia Hansen Kleist</h1>
+      </header>
+      <div class="typewriter"> <span id="typed"></span> 
+		  
+        <script>
+		var typed = new Typed('#typed', {
+  				strings: ["Hello, I am Stinnia", "I am an upcoming web developer", "Welcome to my webpage"],
+				typeSpeed: 30,
+				backSpeed: 10,
+			loop: true
+		});
+
+	</script></div>
+      
+	  <img class="shk-picture" src="images/stinniahansenkleist.png" alt="stinnia"> 
+	  
+   
+    
+  </div>
+</div>
+		<script>
+	function myFunction (){
+		var element = document.getElementById("stickynav");
+		
+		element.classList.toggle("myStyle");
+	}
+</script>
+	<footer>
+      <h2> &copy Stinnia Hansen Kleist, 2017</h2>
+    </footer>
+</body>
+</html>

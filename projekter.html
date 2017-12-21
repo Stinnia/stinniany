@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Projekter</title>
+	<link href="styles/styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+</head>
+
+<body>
+	<button onClick="myFunction()"><img src="images/menu.png" alt="menu"></button>
+	<a href="index.html"><img class="button" src="images/shk-logo.png" alt="stinnia"></a>
+	 <nav id="stickynav">
+    <ul>
+      <li><a href="index.html">HJEM</a></li>
+      <li><a href="læring.html">LÆRING</a></li>
+      <li class="shk-logo"><a href="index.html"><img src="images/shk-logo.png" alt="stinnia"></a></li>
+      <li><a class="active" href="#">PROJEKTER</a></li>
+      <li><a href="kontakt.html">KONTAKT</a></li>
+		<li><a href="pdf-filer/CV.pdf">CV</a></li>
+    </ul>
+  </nav>
+	
+		 <div class="content">
+			 <div class="coding">
+	<h2>Mine projekter</h2>
+      <p>Vi har haft fire projekter i første semester. <br>
+			 Tryk på billederne for at læse mere om de forskellige projekter.</p>
+      <div class="row">
+        <div class="column">
+          <div class="content-mywork"> <a href="flow_1.html"><img src="images/1-flow.png" alt="stinnia" style="width:100%"></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content-mywork"> <a href="flow_2.html"><img src="images/2-flow.png" alt="atinnia" style="width:100%"></a>
+          </div>
+        </div>
+		  
+        <div class="column">
+          <div class="content-mywork"> <a href="flow_3.html"><img src="images/3-flow.png" alt="stinnia" style="width:100%"></a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content-mywork"> <a href="flow_4.html"><img src="images/4-flow.png" alt="stinnia" style="width:100%"></a>
+          </div>
+        </div>
+		  
+      </div>
+			<br> <br><br> 
+			 </div></div>
+		<script>
+	function myFunction (){
+		var element = document.getElementById("stickynav");
+		
+		element.classList.toggle("myStyle");
+	}
+</script>
+	<footer>
+      <h2> &copy Stinnia Hansen Kleist, 2017</h2>
+    </footer>
+</body>
+</html>

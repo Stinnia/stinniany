@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kontakt</title>
+	<link href="styles/styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+</head>
+
+<body>
+	<button onClick="myFunction()"><img src="images/menu.png" alt="menu"></button>
+	<a href="index.html"><img class="button" src="images/shk-logo.png" alt="stinnia"></a>
+ <nav id="stickynav">
+    <ul>
+      <li><a href="index.html">HJEM</a></li>
+      <li><a href="læring.html">LÆRING</a></li>
+      <li class="shk-logo"><a href="index.html"><img src="images/shk-logo.png" alt="stinnia"></a></li>
+		
+      <li><a href="projekter.html">PROJEKTER</a></li>
+      <li><a class="active" href="#">KONTAKT</a></li>
+		<li><a href="pdf-filer/CV.pdf">CV</a></li>
+    </ul>
+  </nav>
+<div class="background">
+	 <div class="content">
+	<h2 class="kontakt">Kontakt mig her</h2>
+      <div class="contact_container">
+        <div class="left"> </div>
+        <div class="right">
+          <div class="formBox">
+            <form action="mailto:stinniahk@gmail.com" method="post" enctype="text/plain">
+              <p>Dit navn:</p>
+              <input type="text" name="name" placeholder="Fulde navn" required>
+              <p>Din email addresse:</p>
+              <input type="email" name="mail" placeholder="Email addresse" required>
+              <p>Skriv besked:</p>
+              <textarea name="message" placeholder="Din besked"></textarea>
+              <input name="submit" type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+		 
+<script>
+	function myFunction (){
+		var element = document.getElementById("stickynav");
+		
+		element.classList.toggle("myStyle");
+	}
+</script>			 
+		 
+		 </div></div>
+	<footer>
+      <h2> &copy Stinnia Hansen Kleist, 2017</h2>
+    </footer>
+</body>
+</html>
