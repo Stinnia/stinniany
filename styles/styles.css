@@ -124,9 +124,9 @@ button {
 /* Læring */
 .coding {
 	background-color: white;
-	height: 100%;
 	width: 80%;
 	margin: auto;
+	height: 100%;
 }
 .coding-img {
 	float: right;
@@ -138,6 +138,11 @@ button {
 	margin: 0 20px;
 	width: 300px;
 }
+.flow-img3 {
+	float: right;
+	margin: 0 20px;
+	height: 350px;
+}
 
 /* end læring*/
 
@@ -145,18 +150,19 @@ button {
 .projekt-button {
 	background-color: #FFB538; 
     border: none;
-    padding: 15px 20px;
+    padding: 10px 20px;
     text-align: center;
     display: inline-block;
+	font-family: "Palanquin";
     font-size: 16px;
 	font-weight: bold;
-	margin: 10px 20px;
+	margin: 0 5px;
 	cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-	border-radius: 40px;
+	border-radius: 20px;
 	position: relative;
-	left: 10%;
+	left: 4.5%;
 }
 a {
 	text-decoration: none;
@@ -290,11 +296,46 @@ footer {
     .column {
         width: 50%;
     }
+	.coding {
+		width: 100%;
+		height: 100%;
+	}
 	.content {
 	margin-left: 0;
 	margin-right: 0;
-	margin-top: 150px;
+	margin-top: 10px;
 }
+	h2 {
+		margin-top: 0;
+		margin-left: 40px;
+	}
+	p {
+		margin-left: 40px;
+	}
+		button {
+		display: block;
+		float: right;
+		position: absolute;
+		top: 5%;
+		right: 10%;
+		border: none;
+		background-color: white;
+		text-decoration: none;
+	}
+	.button {
+		display: block;
+		margin-top: 20px;
+		margin-left: 40px;
+	}
+	nav {
+		display: none;
+	}
+	.projekt-button{
+		left: 60px;
+		display: block;	
+		width: 200px;
+		margin-bottom: 5px;
+	}
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -317,19 +358,19 @@ footer {
 	}
 	h2 {
 		text-align: left;
-		margin-left: 20px;
+		margin-left: 40px;
 		margin-top: 0;
 		font-size: 100%;
 	}
 	h3 {
 		text-align: left;
-		margin-left: 20px;
+		margin-left: 40px;
 		margin-top: 0;
 		font-size: 100%;
 	}
 	p {
-		margin-left: 20px;
-		margin-right: 20px;
+		margin-left: 40px;
+		margin-right: 60px;
 		font-size: 100%;
 	}
 	footer {
@@ -367,23 +408,12 @@ nav ul li {
 	.button {
 		display: block;
 		margin-top: 20px;
-		margin-left: 20px;
+		margin-left: 40px;
 	}
 	.projekt-button {
-	background-color: #FFB538; 
-    border: none;
-    padding: 15px 20px;
-    text-align: center;
-    display: block;
-    font-size: 12px;
-	font-weight: bold;
-	margin: 5px 10px;
-	cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-	border-radius: 40px;
-	position: relative;
-	left: 00%;
+	width: cover;
+	left: 60px;
+		
 }
 	.flow-img {
 		width: 200px;
@@ -421,5 +451,8 @@ nav ul li {
 }
 	.coding-img {
 		width: 50px;
+	}
+	.content-mywork5 {
+		width: 100%;
 	}
 }
